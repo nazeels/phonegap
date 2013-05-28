@@ -16,10 +16,13 @@ var app = {
     initialize: function() {
         //this.store = new MemoryStore();
         //$('.search-key').on('keyup', $.proxy(this.findByName, this));
-        $('#btn_news').click(function() {alert('hai');}");
+     
 
     }
 
 };
+$( document ).ready(function() {
+       $('#btn_news').click(function() {alert('hai');});
+});
 
 app.initialize();
